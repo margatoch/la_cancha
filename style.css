@@ -1,0 +1,83 @@
+.rectangulo_contenedor{
+	width: :1000px;
+	height: 500px;
+	background-color:green;
+	position: relative;
+}
+
+.rectangulo_borde{
+	width:985px;
+	height:450px;
+	background-color: green;
+	border:5px solid white;
+	position:absolute;
+	top:25px;
+	left:25px;
+
+
+}
+
+.rectangulo_izquierdo{
+	width:100px;
+	height:200px;
+	background-color: green;
+	border:5px solid white;
+	position:absolute;
+	top:150px;
+	left:25px;
+
+}
+
+.rectangulo_derecho{
+	width:100px;
+	height:200px;
+	background-color: green;
+	border:5px solid white;
+	position:absolute;
+	top:150px;
+	right:30px;
+
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: green;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+.pelota1{
+	width: 25px;
+	height:25px;
+	background-image: url(img/ball.png);
+	background-size: 100%;
+	position: absolute;
+	top:155px;
+	left:115px;
+}
+
+.pelota2{
+	width: 25px;
+	height:25px;
+	background-image: url(img/ball.png);
+	background-size: 100%;
+	position: absolute;
+	top:80px;
+	left:540px;
+}
+
+.pelota3{
+	width: 25px;
+	height:25px;
+	background-image: url(img/ball.png);
+	background-size: 100%;
+	position: absolute;
+	top:320px;
+	left:880px;
+}
